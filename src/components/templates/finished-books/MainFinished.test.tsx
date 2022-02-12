@@ -2,7 +2,8 @@ import { cleanup, render,screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import MainFinished from "./MainFinished";
 import book1 from "../../atoms/assets/book1.png"
-
+import React from 'react';
+import "@testing-library/jest-dom"
 
 
 afterEach(cleanup);

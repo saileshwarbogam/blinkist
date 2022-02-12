@@ -1,6 +1,7 @@
 import {render,cleanup, screen,fireEvent} from '@testing-library/react';
 import ReadAgainButton from './ReadAgainButton';
 import React from 'react';
+import "@testing-library/jest-dom"
 afterEach(cleanup);
 test("Testing ReadAgainButton",()=>{
     const func=()=>{

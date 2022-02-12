@@ -1,7 +1,8 @@
 import { cleanup, render,screen } from "@testing-library/react";
 import book1 from "../../atoms/assets/book1.png"
 import ReadingTabs from "./ReadingTabs";
-
+import React from 'react';
+import "@testing-library/jest-dom"
 afterEach(cleanup);
 test("Checking reading tabs Rendering", () => {
   render(

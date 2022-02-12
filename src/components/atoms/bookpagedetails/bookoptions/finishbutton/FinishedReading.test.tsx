@@ -3,6 +3,7 @@ import { MemoryRouter } from "react-router-dom"
 import FinishReading from './FinishReading';
 
 import React from 'react';
+import "@testing-library/jest-dom"
 afterEach(cleanup)
 it("Checking FinishReading for true",()=>{
     const func=()=>{

@@ -23,30 +23,30 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">11.11% </span>
+                <span class="strong">66.66% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>1/9</span>
+                <span class='fraction'>6/9</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>0/4</span>
+                <span class='fraction'>2/4</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">0% </span>
+                <span class="strong">50% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>0/2</span>
+                <span class='fraction'>1/2</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">11.11% </span>
+                <span class="strong">66.66% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>1/9</span>
+                <span class='fraction'>6/9</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line low'></div>
+    <div class='status-line medium'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -173,16 +173,16 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -251,17 +251,17 @@ interface Books{
 }
 &nbsp;
 &nbsp;
-const ReadingTabs = <span class="fstat-no" title="function not covered" >(p</span>rops : Books) =&gt; {
-  const classes = <span class="cstat-no" title="statement not covered" >useStyle();</span>
-  const [value, setValue] = <span class="cstat-no" title="statement not covered" >useState("0");</span>
-  const [bool, setBool] = <span class="cstat-no" title="statement not covered" >useState(false);</span>
+const ReadingTabs = (props : Books) =&gt; {
+  const classes = useStyle();
+  const [value, setValue] = useState("0");
+  const [bool, setBool] = useState(false);
 &nbsp;
-  const handleTabs = <span class="cstat-no" title="statement not covered" ><span class="fstat-no" title="function not covered" >(e</span>vent: React.SyntheticEvent, newValue: string) =&gt; {</span>
+  const handleTabs = <span class="fstat-no" title="function not covered" >(e</span>vent: React.SyntheticEvent, newValue: string) =&gt; {
 <span class="cstat-no" title="statement not covered" >    console.log(newValue);</span>
 <span class="cstat-no" title="statement not covered" >    setValue(newValue);</span>
 <span class="cstat-no" title="statement not covered" >    setBool(!bool);</span>
   };
-<span class="cstat-no" title="statement not covered" >  return (</span>
+  return (
     &lt;ThemeProvider theme={theme}&gt;
       &lt;TabContext value={value}&gt;
         &lt;Tabs
@@ -273,12 +273,12 @@ const ReadingTabs = <span class="fstat-no" title="function not covered" >(p</spa
           &lt;Tab
             label="Currently reading"
             value="0"
-            className={bool === false ? classes.activeTab : classes.tabStyle}
+            className={bool === false ? classes.activeTab : <span class="branch-1 cbranch-no" title="branch not covered" >classes.tabStyle}</span>
           /&gt;
           &lt;Tab
             label="Finished"
             value="1"
-            className={bool === true ? classes.activeTab : classes.tabStyle}
+            className={bool === true ? <span class="branch-0 cbranch-no" title="branch not covered" >classes.activeTab </span>: classes.tabStyle}
           /&gt;
         &lt;/Tabs&gt;
         &lt;TabPanel value="0" className={classes.tabPanel}&gt;
@@ -307,7 +307,7 @@ export default ReadingTabs;
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Sat Feb 12 2022 23:24:39 GMT+0530 (India Standard Time)
+                at Sat Feb 12 2022 23:38:29 GMT+0530 (India Standard Time)
             </div>
         <script src="../../../../prettify.js"></script>
         <script>

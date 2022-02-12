@@ -2,7 +2,8 @@ import { cleanup, render,screen} from "@testing-library/react";
 import CardAdd from "./CardAdd";
 import book1 from "../../../atoms/assets/book1.png";
 import { MemoryRouter } from "react-router-dom";
-
+import React from 'react';
+import "@testing-library/jest-dom"
 
 afterEach(cleanup);
 test("Checking card Add Rendering", () => {

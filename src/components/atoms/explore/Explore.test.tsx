@@ -1,6 +1,7 @@
 import { fireEvent, render, screen } from "@testing-library/react";
 import Explore from "./Explore";
 import React from 'react';
+import "@testing-library/jest-dom"
 
 it('Checking the KeyIdeas',()=>{
     const fakeProps={

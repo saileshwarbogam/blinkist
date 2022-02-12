@@ -3,6 +3,7 @@ import { MemoryRouter } from "react-router-dom";
 import NavDown from "../nav/nav-down/NavDown";
 import Buttons from "./Buttons";
 import React from 'react';
+import "@testing-library/jest-dom"
 it('Checking the Buttons',()=>{
     const fakeProps={
         handleChange:()=>{console.log("testing");},
