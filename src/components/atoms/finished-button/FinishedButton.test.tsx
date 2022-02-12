@@ -1,6 +1,6 @@
 import { cleanup, fireEvent, render, screen } from "@testing-library/react";
 import FinishedButton from "./FinishedButton";
-
+import React from 'react';
 afterEach(cleanup);
 test("Checking FinishedButton",()=>{
     const fakeFunction=(item:string)=>{

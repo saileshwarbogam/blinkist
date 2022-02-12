@@ -2,7 +2,7 @@ import { cleanup, fireEvent, render, screen } from "@testing-library/react"
 import { MemoryRouter } from "react-router-dom"
 import FinishReading from './FinishReading';
 
-
+import React from 'react';
 afterEach(cleanup)
 it("Checking FinishReading for true",()=>{
     const func=()=>{

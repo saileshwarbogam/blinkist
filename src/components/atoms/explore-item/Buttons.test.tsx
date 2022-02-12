@@ -2,7 +2,7 @@ import { fireEvent, render, screen } from "@testing-library/react";
 import { MemoryRouter } from "react-router-dom";
 import NavDown from "../nav/nav-down/NavDown";
 import Buttons from "./Buttons";
-
+import React from 'react';
 it('Checking the Buttons',()=>{
     const fakeProps={
         handleChange:()=>{console.log("testing");},
