@@ -20,7 +20,7 @@ interface Handle{
 const EntrepreneurReading = (props:Handle) => {
     const tempBooks1 = readingbooks.filter(e=>e.author.toLowerCase().indexOf(props.value)>-1);
     const tempBooks = readingbooks.filter(e=>e.name.toLowerCase().indexOf(props.value)>-1);
-    tempBooks1.map((e)=>{
+    tempBooks1.forEach((e)=>{
         tempBooks.push(e)
     })
   const classes = useStyle();
