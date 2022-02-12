@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1644687587702" clover="3.2.0">
-  <project timestamp="1644687587702" name="All files">
-    <metrics statements="135" coveredstatements="109" conditionals="12" coveredconditionals="3" methods="52" coveredmethods="36" elements="199" coveredelements="148" complexity="0" loc="135" ncloc="135" packages="40" files="43" classes="43"/>
+<coverage generated="1644688479259" clover="3.2.0">
+  <project timestamp="1644688479260" name="All files">
+    <metrics statements="200" coveredstatements="130" conditionals="20" coveredconditionals="3" methods="77" coveredmethods="38" elements="297" coveredelements="171" complexity="0" loc="200" ncloc="200" packages="57" files="60" classes="60"/>
     <package name="src">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="Theme.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/Theme.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="34" type="stmt"/>
-        <line num="378" count="34" type="stmt"/>
-        <line num="386" count="34" type="stmt"/>
+        <line num="4" count="48" type="stmt"/>
+        <line num="378" count="48" type="stmt"/>
+        <line num="386" count="48" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.addtolibrarybutton">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="AddToLibraryButton.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/addtolibrarybutton/AddToLibraryButton.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="7" count="3" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
       </file>
@@ -24,7 +24,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="AuthorName.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/author/AuthorName.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="9" count="9" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
       </file>
@@ -33,20 +33,29 @@
       <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
       <file name="AvatarLogin.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/avatar/AvatarLogin.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="2" type="stmt"/>
+        <line num="3" count="3" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
       </file>
       <file name="AvatarLogout.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/avatar/AvatarLogout.tsx">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
         <line num="4" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.banner-image">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="BannerImage.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/banner-image/BannerImage.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.banner-one">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="BannerOne.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/banner-one/BannerOne.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
       </file>
@@ -55,16 +64,24 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="BannerTwo.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/banner-two/BannerTwo.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="2" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.blinkimage">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="BlinkImage.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/blinkimage/BlinkImage.tsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="5" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
       </file>
     </package>
     <package name="src.components.atoms.bookpagedetails.booknote">
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="BookNote.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/bookpagedetails/booknote/BookNote.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
       </file>
@@ -73,7 +90,7 @@
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
       <file name="FinishReading.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/bookpagedetails/bookoptions/finishbutton/FinishReading.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="12" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
         <line num="14" count="3" type="stmt"/>
         <line num="15" count="3" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
@@ -83,7 +100,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="SendToKindle.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/bookpagedetails/bookoptions/kindlebutton/SendToKindle.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
       </file>
@@ -92,7 +109,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="BookTitle.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/bookpagedetails/booktitle/BookTitle.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
       </file>
@@ -101,7 +118,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="BookTitle.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/booktitle/BookTitle.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
       </file>
@@ -110,7 +127,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="CurrentBar.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/current-bar/CurrentBar.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
       </file>
@@ -119,7 +136,7 @@
       <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
       <file name="Explore.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/explore/Explore.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="2" coveredconditionals="1" methods="2" coveredmethods="2"/>
-        <line num="13" count="1" type="stmt"/>
+        <line num="13" count="3" type="stmt"/>
         <line num="14" count="2" type="stmt"/>
         <line num="15" count="2" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
@@ -139,7 +156,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="FinishedBar.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/finished-bar/FinishedBar.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="5" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
       </file>
@@ -148,7 +165,7 @@
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="FinishedButton.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/finished-button/FinishedButton.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
         <line num="11" count="2" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
@@ -158,7 +175,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="FooterCopyRight.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/footer/copyright/FooterCopyRight.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
       </file>
@@ -167,7 +184,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="FooterHighlight.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/footer/footerhighlight/FooterHighlight.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="3" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
       </file>
@@ -176,7 +193,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="NavHead.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/footer/navitems/navhead/NavHead.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="9" count="4" type="stmt"/>
+        <line num="9" count="5" type="stmt"/>
         <line num="10" count="1" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
       </file>
@@ -185,7 +202,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="NavItem.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/footer/navitems/navitem/NavItem.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="7" count="4" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
         <line num="9" count="1" type="stmt"/>
       </file>
@@ -208,11 +225,31 @@
         <line num="7" count="1" type="stmt"/>
       </file>
     </package>
+    <package name="src.components.atoms.loginButton">
+      <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="LoginButton.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/loginButton/LoginButton.tsx">
+        <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.atoms.loginButton.logoutButton">
+      <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="LogoutButton.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/loginButton/logoutButton/LogoutButton.tsx">
+        <metrics statements="4" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+    </package>
     <package name="src.components.atoms.main-search-icon">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="MainSearchIcon.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/main-search-icon/MainSearchIcon.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="1" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
         <line num="5" count="1" type="stmt"/>
       </file>
     </package>
@@ -229,7 +266,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="MyLibrary.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/mylibrary/mylibrary-text/MyLibrary.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="6" count="3" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
       </file>
@@ -238,7 +275,7 @@
       <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="MainNavDown.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/nav/mainnavdown/MainNavDown.tsx">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
       </file>
     </package>
@@ -246,7 +283,7 @@
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="NavDown.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/nav/nav-down/NavDown.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="3" type="stmt"/>
+        <line num="3" count="5" type="stmt"/>
         <line num="4" count="3" type="stmt"/>
       </file>
     </package>
@@ -254,7 +291,7 @@
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="NavUp.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/nav/nav-up/NavUp.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="4" count="2" type="stmt"/>
+        <line num="4" count="4" type="stmt"/>
         <line num="5" count="3" type="stmt"/>
       </file>
     </package>
@@ -262,7 +299,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="ReadTime.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/read-time/ReadTime.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="10" count="2" type="stmt"/>
         <line num="11" count="1" type="stmt"/>
         <line num="12" count="1" type="stmt"/>
       </file>
@@ -271,7 +308,7 @@
       <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
       <file name="ReadAgainButton.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/readagainbutton/ReadAgainButton.tsx">
         <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="10" count="1" type="stmt"/>
+        <line num="10" count="5" type="stmt"/>
         <line num="11" count="2" type="stmt"/>
         <line num="12" count="2" type="stmt"/>
         <line num="16" count="1" type="stmt"/>
@@ -281,7 +318,7 @@
       <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="ReadNow.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/readbutton/ReadNow.tsx">
         <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="5" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
         <line num="6" count="1" type="stmt"/>
         <line num="7" count="1" type="stmt"/>
       </file>
@@ -298,7 +335,7 @@
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="Timer.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/atoms/timer/Timer.tsx">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="3" count="3" type="stmt"/>
+        <line num="3" count="11" type="stmt"/>
         <line num="4" count="2" type="stmt"/>
       </file>
     </package>
@@ -306,7 +343,7 @@
       <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="AvatarDrop.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/molecules/avatar/AvatarDrop.tsx">
         <metrics statements="3" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="12" count="1" type="stmt"/>
+        <line num="12" count="2" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
       </file>
@@ -315,8 +352,17 @@
       <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="BannerItems.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/molecules/banner-items/banner-item/BannerItems.tsx">
         <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.banner-items.main-banner">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="MainBanner.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/molecules/banner-items/main-banner/MainBanner.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.molecules.bookdetailstabs">
@@ -331,6 +377,15 @@
         <line num="13" count="0" type="stmt"/>
       </file>
     </package>
+    <package name="src.components.molecules.card">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="CardHead.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/molecules/card/CardHead.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="14" count="7" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+      </file>
+    </package>
     <package name="src.components.molecules.explore-items.explore-grid-head">
       <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="ExploreMenuHead.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/molecules/explore-items/explore-grid-head/ExploreMenuHead.tsx">
@@ -340,28 +395,46 @@
         <line num="7" count="0" type="stmt"/>
       </file>
     </package>
+    <package name="src.components.molecules.footer.footer-highlight">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="BlinkHighlight.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/molecules/footer/footer-highlight/BlinkHighlight.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.molecules.footer.footer-main">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="FooterMain.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/molecules/footer/footer-main/FooterMain.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+      </file>
+    </package>
     <package name="src.components.molecules.footer.footer-navlist">
       <metrics statements="15" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="0"/>
       <file name="FooterNavListOne.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/molecules/footer/footer-navlist/FooterNavListOne.tsx">
         <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="16" count="0" type="stmt"/>
       </file>
       <file name="FooterNavListThree.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/molecules/footer/footer-navlist/FooterNavListThree.tsx">
         <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="7" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="2" type="stmt"/>
         <line num="9" count="0" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
       </file>
       <file name="FooterNavListTwo.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/molecules/footer/footer-navlist/FooterNavListTwo.tsx">
         <metrics statements="5" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
+        <line num="5" count="2" type="stmt"/>
+        <line num="6" count="2" type="stmt"/>
         <line num="7" count="0" type="stmt"/>
         <line num="8" count="0" type="stmt"/>
         <line num="14" count="0" type="stmt"/>
@@ -371,9 +444,58 @@
       <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
       <file name="ReadTime.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/molecules/read-time/ReadTime.tsx">
         <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
-        <line num="9" count="1" type="stmt"/>
+        <line num="9" count="8" type="stmt"/>
         <line num="10" count="0" type="stmt"/>
         <line num="11" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.bookdetailsgrid">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="BookDetailsGrid.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/organisms/bookdetailsgrid/BookDetailsGrid.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.cards.card-add">
+      <metrics statements="6" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="CardAdd.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/organisms/cards/card-add/CardAdd.tsx">
+        <metrics statements="6" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.cards.card-mui">
+      <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="CardMui.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/organisms/cards/card-mui/CardMui.tsx">
+        <metrics statements="5" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="21" count="4" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.header.header-left">
+      <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="HeaderLeft.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/organisms/header/header-left/HeaderLeft.tsx">
+        <metrics statements="3" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.header.toolbar-header">
+      <metrics statements="2" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="ToolBarHeader.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/organisms/header/toolbar-header/ToolBarHeader.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="2" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
       </file>
     </package>
     <package name="src.components.organisms.main">
@@ -384,6 +506,51 @@
         <line num="12" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.organisms.tabs">
+      <metrics statements="9" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="ReadingTabs.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/organisms/tabs/ReadingTabs.tsx">
+        <metrics statements="9" coveredstatements="1" conditionals="4" coveredconditionals="0" methods="2" coveredmethods="0"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="39" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.templates.entrepreneur-books">
+      <metrics statements="8" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+      <file name="EntrepreneurReading.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/templates/entrepreneur-books/EntrepreneurReading.tsx">
+        <metrics statements="8" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="0"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="20" count="1" type="stmt"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="27" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.templates.finished-books">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="MainFinished.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/templates/finished-books/MainFinished.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components.templates.reading-books">
+      <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <file name="MainReading.tsx" path="/home/saileb/Zemoso/blinkist-final/my-blinkist/src/components/templates/reading-books/MainReading.tsx">
+        <metrics statements="2" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
       </file>
     </package>
   </project>
